@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>493</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Telemedicine</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>2018-11-29_Healthcare_workforce_managment.jpg</normaloff>2018-11-29_Healthcare_workforce_managment.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>471</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>      CHATBOT FOR HEALTHCARE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>190</y>
+      <width>491</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>1_69vLXZCjrJwdXytj0CTSiQ.jpeg</normaloff>1_69vLXZCjrJwdXytj0CTSiQ.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>500</width>
+      <height>700</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="massenger">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>121</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>     let's start chat</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>massenger</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>open()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>246</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>massenger</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>246</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>open()</slot>
+ </slots>
+</ui>
