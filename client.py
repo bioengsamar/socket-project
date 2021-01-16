@@ -16,23 +16,13 @@ def send(msg):
     print(client.recv(2048).decode(FORMAT))
 
 
-#input()
-#send("Hello Everyone!")
-#input()
-#send("Hello Tim!")
 
-#try:
-#payload='Hey server'
 send("hey server")
 while True:
     more=input('Do you want to continue(y/n): ')
     if more.lower() =='y':
         payload= input('enter question: ')
-        #print(payload)
         send(payload)
     else:
         send(DISCONNECT_MESSAGE)
         break
-#except KeyboardInterrupt:
-#    print('exited by the user')
-#client.close()

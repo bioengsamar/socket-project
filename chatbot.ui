@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</iconset>
+    <normaloff>images/1200px-Facebook_Messenger_logo_2013.svg.png</normaloff>images/1200px-Facebook_Messenger_logo_2013.svg.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -52,7 +52,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>chat.jpg</normaloff>chat.jpg</iconset>
+      <normaloff>images/chat.jpg</normaloff>images/chat.jpg</iconset>
     </property>
     <property name="iconSize">
      <size>

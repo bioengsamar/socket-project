@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>2018-11-29_Healthcare_workforce_managment.jpg</normaloff>2018-11-29_Healthcare_workforce_managment.jpg</iconset>
+    <normaloff>images/2018-11-29_Healthcare_workforce_managment.jpg</normaloff>images/2018-11-29_Healthcare_workforce_managment.jpg</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 255, 255);
@@ -59,7 +59,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>1_69vLXZCjrJwdXytj0CTSiQ.jpeg</normaloff>1_69vLXZCjrJwdXytj0CTSiQ.jpeg</iconset>
+      <normaloff>images/1_69vLXZCjrJwdXytj0CTSiQ.jpeg</normaloff>images/1_69vLXZCjrJwdXytj0CTSiQ.jpeg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -82,7 +82,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</iconset>
+      <normaloff>images/1200px-Facebook_Messenger_logo_2013.svg.png</normaloff>images/1200px-Facebook_Messenger_logo_2013.svg.png</iconset>
     </property>
     <property name="iconSize">
      <size>
