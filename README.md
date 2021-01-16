@@ -1,3 +1,4 @@
 # socket-project
 ![](images/home.png)
-![](images/chat_bot.png)
+![](images/chatbot.png)
+![multiconnection_clients](images/3clients.png)
