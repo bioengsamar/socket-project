@@ -6,7 +6,7 @@ SERVER = socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER, PORT)
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "good bye"
-questuions = {
+dictionary = {
   "hello": "Hey Samar, I can help you if you're feeling unwell",
   "i have a headache": "I see. Would you mind answering a few questions about your head?",
   "sure": "okay let's start",
@@ -31,8 +31,8 @@ def handle_client(conn, addr):
         
         print(f"[{addr}] {msg}")
 
-        if msg in questuions:
-            conn.send(questuions.get(msg).encode(FORMAT))
+        if msg in dictionary:
+            conn.send(dictionary.get(msg).encode(FORMAT))
         else:
             conn.send("not available".encode(FORMAT))
         

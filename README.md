@@ -1,4 +1,3 @@
 # socket-project
-![](yes.png)
-![](edit.png)
-![](edit3.png)
+![](home.png)
+![](chat_bot.png)
