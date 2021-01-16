@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
+    <width>504</width>
     <height>500</height>
    </rect>
   </property>
@@ -18,16 +18,6 @@
     <normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</normaloff>1200px-Facebook_Messenger_logo_2013.svg.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>331</width>
-      <height>51</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -71,21 +61,11 @@
      </size>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>149</y>
-      <width>331</width>
-      <height>51</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>380</x>
-      <y>80</y>
+      <y>70</y>
       <width>91</width>
       <height>51</height>
      </rect>
@@ -108,6 +88,26 @@ font: 14pt &quot;Arial&quot;;</string>
     </property>
     <property name="text">
      <string>Send</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>461</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
     </property>
    </widget>
   </widget>
